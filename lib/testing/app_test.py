@@ -16,7 +16,7 @@ class TestAppPy:
         assert(path.exists("lib/app.py"))
 
     def test_app_py_runs(self):
-        '''
+        '''p
         is executable
         '''
         runpy.run_path("lib/app.py")
